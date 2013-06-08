@@ -2,6 +2,7 @@ passo - Tweet your passo!
 =====
 
 passo は，fitbit のアクティビティ情報を取得し，1000歩ごとにTwitterにつぶやくプログラムです．
+
 passo retrieves walk steps from fitbit api.
     
 # 動作環境
