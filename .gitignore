@@ -19,3 +19,4 @@ doc/
 
 # fitgem secret file
 .fitgem.yml
+data.db
