@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# -*- encoding: utf-8 -*-
 
 require "fitgem"
 require "pp"
@@ -104,7 +105,7 @@ end
 base_steps = ((latest_steps / 1000) + 1) * 1000 
 if  new_steps > base_steps then
   log.info "NEW " + ((new_steps / 1000) * 1000).to_s + " steps walked"
-  # Twitter.update(round(latest_steps).to_s + "歩 あるきました #fitbitpasso")
+  Twitter.update(((new_steps / 1000) * 1000).to_s + '歩 あるきました #fitbitpasso')
 end
 
 ## 最新歩数を保存

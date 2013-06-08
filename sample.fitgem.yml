@@ -1,0 +1,11 @@
+---
+:oauth:
+  :consumer_key: XXXXXXXXXXXXXXXXXX
+  :consumer_secret: XXXXXXXXXXXXXXXXXX
+  :token: XXXXXXXXXXXXXXXXXX
+  :secret: XXXXXXXXXXXXXXXXXX
+:twitter:
+  :consumer_key: YYYYYYYYYYYYYYYY
+  :consumer_secret: YYYYYYYYYYYYYY
+  :token: YYYYYYYYYYYYYY
+  :secret: YYYYYYYYYYYYY
