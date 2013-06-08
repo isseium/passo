@@ -3,7 +3,9 @@ passo
 
 passo は，fitbit のアクティビティ情報を取得し，1000歩ごとにTwitterにつぶやくプログラムです．
 
-Tweet walk count! (retrieve walk data from fitbit api)
+Tweet your passo!
+
+passo retrieves walk steps from fitbit api.
     
 # 動作環境
 - ruby 1.9.2 or later
@@ -12,9 +14,9 @@ Tweet walk count! (retrieve walk data from fitbit api)
 
 下記のライブラリを利用しています．ありがとうございます．
 
-- gem
--- twitter
--- fitgem
+* gem
+  * twitter
+  * fitgem
 
 
 # Getting start
